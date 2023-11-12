@@ -1,6 +1,6 @@
 {
-  "name": "wa-sticker-formatter",
-  "version": "4.4.4",
+  "name": "@zennn08/wa-sticker-formatter",
+  "version": "1.0.0",
   "description": "Sticker Creator for WhatsApp",
   "main": "dist",
   "types": "dist",
@@ -25,14 +25,10 @@
     "whatsapp-stickers",
     "webp"
   ],
-  "author": {
-    "name": "Alen Yohannan",
-    "email": "alenyohannan71@gmail.com",
-    "url": "https://github.com/AlenVelocity"
-  },
+  "author": "Alen Yohannan <alenyohannan71@gmail.com> (https://github.com/AlenVelocity)",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/AlenVelocity/wa-sticker-formatter"
+    "url": "git+https://github.com/AlenVelocity/wa-sticker-formatter.git"
   },
   "issues": "https://github.com/AlenVelocity/wa-sticker-formatter/issues",
   "devDependencies": {
@@ -60,5 +56,13 @@
     "image-size": "^1.0.0",
     "node-webpmux": "^3.1.0",
     "sharp": "^0.30.0"
+  },
+  "bugs": {
+    "url": "https://github.com/AlenVelocity/wa-sticker-formatter/issues"
+  },
+  "homepage": "https://github.com/AlenVelocity/wa-sticker-formatter#readme",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
   }
 }
