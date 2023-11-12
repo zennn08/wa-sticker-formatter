@@ -9,6 +9,8 @@ export interface IStickerConfig {
     author?: string
     /** Sticker Pack ID*/
     id?: string
+    /** Sticker isAvatar */
+    avatar?: boolean
     /** Sticker Category*/
     categories?: Categories[]
 }
